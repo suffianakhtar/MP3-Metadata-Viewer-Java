@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+html {
+	background-color: #869960;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 87%;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 75px;
+	padding-top: 25px;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+	padding-top: 25px;
+}
+
+.col-title, .col-artist, .col-year, .col-album {
+	width: 25%;
+}
+
+
+table th {
+	text-align: left;
+	background-color: #869960;
+	color: #FFF;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+table th, table td {
+	border: 1px solid #869960;
+	padding: 10px;
+	vertical-align: top;
+}
+
+table tbody tr:nth-child(even) td {
+	background-color: #e5e9dc;
+}
+
+table tr :nth-child(2), table tr :nth-child(3) {
+	text-align: center;
+}
+
+.container {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e4e4e4;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+}

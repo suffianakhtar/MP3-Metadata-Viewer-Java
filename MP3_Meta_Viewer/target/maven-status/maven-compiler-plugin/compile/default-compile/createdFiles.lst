@@ -1,0 +1,7 @@
+com\sheifu\mp3_meta_viewer\Managers\Manager.class
+com\sheifu\mp3_meta_viewer\Dao\SongDao.class
+com\sheifu\mp3_meta_viewer\Entities\Song.class
+com\sheifu\mp3_meta_viewer\Utils\FileNameReader.class
+com\sheifu\mp3_meta_viewer\Utils\MyFilter.class
+com\sheifu_mp3_meta_viewer\Controllers\SongServlet.class
+com\sheifu\mp3_meta_viewer\Utils\Mp3FilesFilter.class
